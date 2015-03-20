@@ -1,5 +1,7 @@
 mod.addItem("ingredient.js", "normal");
 mod.addItem("potion.js", "food");
+mod.addItem("consumable.js", "normal");
+
 mod.addCreativeTab("Medicine", "addedhealthmechanics:ingredient:0");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", "0", "herbalPaste");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", "1", "fungalGoo");
