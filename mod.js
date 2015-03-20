@@ -180,7 +180,36 @@ mod.addToOreDictionary("cropSeaweed", "ExtrabiomesXL:waterplant1");
 
 mod.addShapelessRecipe("aqueousPulp 2", ":cropSeaweed", ":cropSeaweed", ":cropSeaweed", "harvestcraft:cuttingboardItem", "harvestcraft:mortarandpestleItem");
 
+ //MEDICINE AND STUFF
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient:16", "med_green");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient:17", "med_blue");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient:18", "med_magenta");
 
+
+//Coagulant (grn) Ore Dictionary
+mod.addToOreDictionary("AHMmedGreen", "addedhealthmechanics:ingredient:4");
+mod.addToOreDictionary("AHMmedGreen", "addedhealthmechanics:ingredient:7");
+mod.addToOreDictionary("AHMmedGreen", "addedhealthmechanics:ingredient:10");
+mod.addToOreDictionary("AHMmedGreen", "addedhealthmechanics:ingredient:13");
+
+mod.addShapelessRecipe("med_green 2", ":AHMmedGreen")
+
+
+//Antisepctic (blu) Ore Dictionary
+mod.addToOreDictionary("AHMmedBlue", "addedhealthmechanics:ingredient:5");
+mod.addToOreDictionary("AHMmedBlue", "addedhealthmechanics:ingredient:8");
+mod.addToOreDictionary("AHMmedBlue", "addedhealthmechanics:ingredient:11");
+
+mod.addShapelessRecipe("med_blue 2", ":AHMmedBlue")
+
+
+//Anesthetic (mag) Ore Dictionary
+mod.addToOreDictionary("AHMmedMagenta", "addedhealthmechanics:ingredient:6");
+mod.addToOreDictionary("AHMmedMagenta", "addedhealthmechanics:ingredient:9");
+mod.addToOreDictionary("AHMmedMagenta", "addedhealthmechanics:ingredient:12");
+mod.addToOreDictionary("AHMmedMagenta", "addedhealthmechanics:ingredient:14");
+
+mod.addShapelessRecipe("med_magenta 2", ":AHMmedMagenta")
 
 //######################
 //########################
