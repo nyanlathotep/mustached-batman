@@ -65,3 +65,27 @@ information[14] = "It is extremely watery."
 addToCreative[15] = true;
 textureFile[15] = "powder_watery";
 information[15] = "A pile of bluegreen goop.|It might work in a potion."
+
+addToCreative[16] = true;
+textureFile[16] = "meds_lmgreen"
+information[16] = "This should have some|coagulant properties.|Not much good alone."
+
+addToCreative[17] = true;
+textureFile[17] = "meds_ltblue"
+information[17] = "This should have some|antiseptic properties.|Not much good alone."
+
+addToCreative[18] = true;
+textureFile[18] = "meds_magenta"
+information[18] = "This should have some|anaesthetic properties.|Not much good alone."
+
+addToCreative[19] = true;
+textureFile[19] = "meds_leaf"
+information[19] = "Some leaves.  Might have|some medicinal uses."
+
+addToCreative[20] = true;
+textureFile[20] = "med_poultice"
+information[20] = "A makeshift bandage."
+
+addToCreative[21] = true;
+textureFile[21] = "med_bandage"
+information[21] = "A treated adhesive bandage."
