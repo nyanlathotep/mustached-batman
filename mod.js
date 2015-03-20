@@ -3,11 +3,11 @@ mod.addItem("potion.js", "food");
 mod.addItem("consumable.js", "normal");
 
 mod.addCreativeTab("Medicine", "addedhealthmechanics:ingredient:0");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient", "0", "herbalPaste");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient", "1", "fungalGoo");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient", "2", "rootPowder");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient", "3", "cactusGel");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient", "15", "aqueousPulp");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 0, "herbalPaste");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 1, "fungalGoo");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 2, "rootPowder");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 3, "cactusGel");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 15, "aqueousPulp");
 //mod.addAlias("harvestcraft:saucepanItem", "saucepan");
 //mod.addAlias("harvestcraft:mixingbowlItem", "mixingbowl");
 //mod.addAlias("harvestcraft:potItem", "pot");
@@ -181,9 +181,9 @@ mod.addToOreDictionary("cropSeaweed", "ExtrabiomesXL:waterplant1");
 mod.addShapelessRecipe("aqueousPulp 2", ":cropSeaweed", ":cropSeaweed", ":cropSeaweed", "harvestcraft:cuttingboardItem", "harvestcraft:mortarandpestleItem");
 
  //MEDICINE AND STUFF
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient:16", "med_green");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient:17", "med_blue");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient:18", "med_magenta");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 16, "med_green");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 17, "med_blue");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 18, "med_magenta");
 
 
 //Coagulant (grn) Ore Dictionary
