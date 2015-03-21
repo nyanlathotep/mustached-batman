@@ -4,8 +4,8 @@ fp = open('gen.json', 'r')
 data = load(fp)
 fp.close()
 
-recipeFile = open('gen/recipe.js', 'w')
-langFile = open('gen/en_US.lang', 'w')
+recipeFile = open(data['recipeFile'], 'w')
+langFile = open(data['langFile'], 'w')
 
 lastTier = None
 for tier in data['tiers']:

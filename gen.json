@@ -117,5 +117,7 @@
     "strong": "Thick ",
     "long": "Thin ",
     "normal": ""
-  }
+  },
+  "langFile": "gen/en_US.lang",
+  "recipeFile": "gen/alchemy.js"
 }
