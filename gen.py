@@ -1,11 +1,21 @@
 from json import load
+from re import match
 
 fp = open('gen.json', 'r')
 data = load(fp)
 fp.close()
 
 recipeFile = open(data['recipeFile'], 'w')
-langFile = open(data['langFile'], 'w')
+
+try:
+  langFile = open(data['langFile'], 'r')
+  langEntries = {}
+  for line in langFile:
+    line = line.strip().partition('=')
+    langEntries[line[0]] = line[2]
+  langFile.close()
+except IOError:
+  langEntries = {}
 
 lastTier = None
 for tier in data['tiers']:
@@ -23,7 +33,8 @@ for tier in data['tiers']:
 
       # lang file entry
       name = tier['name'] % {'effect': effect['name'], 'group': data['language'][group]}
-      langFile.write('item.%s%d.name=%s\n' % (tier['id'], meta, name))
+      #langFile.write('item.%s%d.name=%s\n' % (tier['id'], meta, name))
+      langEntries['item.%s%d.name' % (tier['id'], meta)] = name
 
       # tier file entry
       duration = tier[group][0]
@@ -72,8 +83,17 @@ for tier in data['tiers']:
 
   tierFile.close()
 
-for line in data['langPostamble']:
-  langFile.write(line + '\n')
+for key in data['langExtras']:
+  langEntries[key] = data['langExtras'][key]
+langFile = open(data['langFile'], 'w')
+
+def keyFunc(x):
+  x = x.split('.')[1]
+  x = match('(\w+)(\d+)', x).groups()
+  return '%s%02d' % (x[0], int(x[1]))
+
+for key in sorted(langEntries.keys(), key = keyFunc):
+  langFile.write('%s=%s\n' % (key, langEntries[key]))
 langFile.close()
 
 for line in data['recipePostamble']:
