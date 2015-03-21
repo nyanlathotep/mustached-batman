@@ -22,7 +22,7 @@ potionAmplifier[5] = 0;
 potionDuration[5] = 45;
 potionProbability[5] = 1;
 hunger[5] = 0
-information[4] = "Duration: 45 seconds"
+information[5] = "Duration: 45 seconds"
 
 addToCreative[6] = true;
 textureFile[6] = "vial_pink";
@@ -33,7 +33,7 @@ potionAmplifier[6] = 0;
 potionDuration[6] = 45;
 potionProbability[6] = 1;
 hunger[6] = 0
-information[4] = "Duration: 45 seconds"
+information[6] = "Duration: 45 seconds"
 
 addToCreative[7] = true;
 textureFile[7] = "vial_purple";
@@ -44,7 +44,7 @@ potionAmplifier[7] = 255;
 potionDuration[7] = 0;
 potionProbability[7] = 1;
 hunger[7] = 0
-information[4] = "Cures poison."
+information[7] = "Cures poison."
 
 addToCreative[8] = true;
 textureFile[8] = "vial_magenta";
@@ -55,7 +55,7 @@ potionAmplifier[8] = 0;
 potionDuration[8] = 45;
 potionProbability[8] = 1;
 hunger[8] = 0
-information[4] = "Duration: 45 seconds"
+information[8] = "Duration: 45 seconds"
 
 addToCreative[9] = true;
 textureFile[9] = "vial_yellow";
@@ -66,7 +66,7 @@ potionAmplifier[9] = 0;
 potionDuration[9] = 45;
 potionProbability[9] = 1;
 hunger[9] = 0
-information[4] = "Duration: 45 seconds"
+information[9] = "Duration: 45 seconds"
 
 addToCreative[10] = true;
 textureFile[10] = "vial_white";
@@ -77,7 +77,7 @@ potionAmplifier[10] = 0;
 potionDuration[10] = 45;
 potionProbability[10] = 1;
 hunger[10] = 0
-information[4] = "Duration: 45 seconds"
+information[10] = "Duration: 45 seconds"
 
 addToCreative[11] = true;
 textureFile[11] = "vial_ltblue";
@@ -88,7 +88,7 @@ potionAmplifier[11] = 0;
 potionDuration[11] = 45;
 potionProbability[11] = 1;
 hunger[11] = 0
-information[4] = "Duration: 45 seconds"
+information[11] = "Duration: 45 seconds"
 
 addToCreative[12] = true;
 textureFile[12] = "vial_brown";
@@ -99,7 +99,7 @@ potionAmplifier[12] = 0;
 potionDuration[12] = 45;
 potionProbability[12] = 1;
 hunger[12] = 0
-information[4] = "Duration: 45 seconds"
+information[12] = "Duration: 45 seconds"
 
 addToCreative[13] = true;
 textureFile[13] = "vial_ltgrey";
@@ -110,7 +110,7 @@ potionAmplifier[13] = 0;
 potionDuration[13] = 45;
 potionProbability[13] = 1;
 hunger[13] = 0
-information[4] = "Duration: 45 seconds"
+information[13] = "Duration: 45 seconds"
 
 addToCreative[14] = true;
 textureFile[14] = "vial_blue";
@@ -121,4 +121,4 @@ potionAmplifier[14] = 0;
 potionDuration[14] = 45;
 potionProbability[14] = 1;
 hunger[14] = 0
-information[4] = "Duration: 45 seconds"
+information[14] = "Duration: 45 seconds"
