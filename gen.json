@@ -153,7 +153,7 @@
   "langFile": "gen/en_US.lang",
   "recipeFile": "gen/alchemy.js",
   "recipePostamble": [
-    "mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');"
+    "mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');",
 	"mod.addShapelessRecipe('addedhealthmechanics:potion:31', 'addedhealthmechanics:tincture:31', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');"
   ],
   "langPostamble": [

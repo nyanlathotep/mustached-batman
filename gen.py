@@ -41,8 +41,9 @@ for tier in data['tiers']:
       tierFile.write('potionAmplifier[%d] = %d;\n' % (meta, tier[group][1] + effect.get('bonus', 0)))
       tierFile.write('potionProbability[%d] = 1;\n' % meta)
       tierFile.write('hunger[%d] = 0\n' % meta)
+      if group != 'normal':
+        tierFile.write('hasEffect[%d] = true;\n' % meta)
       tierFile.write('information[%d] = "Duration: %s";\n\n' % (meta, duration))
-
       meta += 1
 
     oreDict = tier['oreDict'] % effect['effect']
