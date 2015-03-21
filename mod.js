@@ -4,6 +4,7 @@ mod.addItem("consumable.js", "normal");
 
 mod.addCreativeTab("Medicine", "addedhealthmechanics:ingredient:0");
 
+mod.loadScript("config.js")
 mod.loadScript("alias.js")
 mod.loadScript("extract.js")
 mod.loadScript("reagent.js")
