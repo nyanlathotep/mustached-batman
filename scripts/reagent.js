@@ -72,3 +72,11 @@ mod.addShapelessRecipe("cactusGel 2", ":listAllcactus", ":listAllcactus", ":list
 mod.addToOreDictionary("cropSeaweed", "ExtrabiomesXL:waterplant1");
 
 mod.addShapelessRecipe("aqueousPulp 2", ":cropSeaweed", ":cropSeaweed", ":cropSeaweed", "harvestcraft:cuttingboardItem", "harvestcraft:mortarandpestleItem");
+
+
+//Potion upgrade bases
+mod.addShapelessRecipe("upgTierBase 2", "minecraft:nether_wart", "minecraft:nether_wart", "minecraft:nether_wart", "harvestcraft:mortarandpestleItem", "harvestcraft:cuttingboardItem");
+
+mod.addShapelessRecipe("upgStrengthBase", ":dustSaltpeter", ":listAllwater");
+
+mod.addShapelessRecipe("upgLengthBase", ":dustSulphur", ":listAllwater");

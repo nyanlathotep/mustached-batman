@@ -5,6 +5,10 @@ mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 2, "rootPowder");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 3, "cactusGel");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 15, "aqueousPulp");
 
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 22, "upgStrengthBase");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 23, "upgLengthBase");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 24, "upgTierBase");
+
  // medicine ingredients
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 16, "medGreen");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 17, "medBlue");
