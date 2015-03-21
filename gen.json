@@ -6,7 +6,7 @@
       "strong": false,
       "color": "red",
       "extract": "addedhealthmechanics:ingredient:4",
-      "reagent": "addedhealthmechanics:ingredient:1"
+      "reagent": "fungalGoo"
     },
     {
       "effect": "jump",
@@ -14,7 +14,7 @@
       "strong": true,
       "color": "orange",
       "extract": "addedhealthmechanics:ingredient:5",
-      "reagent": "addedhealthmechanics:ingredient:2",
+      "reagent": "rootPowder",
       "bonus": 1
     },
     {
@@ -23,7 +23,7 @@
       "strong": false,
       "color": "pink",
       "extract": "addedhealthmechanics:ingredient:6",
-      "reagent": "addedhealthmechanics:ingredient:1"
+      "reagent": "fungalGoo"
     },
     {
       "effect": "digSpeed",
@@ -31,7 +31,7 @@
       "strong": true,
       "color": "magenta",
       "extract": "addedhealthmechanics:ingredient:7",
-      "reagent": "addedhealthmechanics:ingredient:1"
+      "reagent": "fungalGoo"
     },
     {
       "effect": "absorption",
@@ -39,7 +39,7 @@
       "strong": true,
       "color": "yellow",
       "extract": "addedhealthmechanics:ingredient:8",
-      "reagent": "addedhealthmechanics:ingredient:0"
+      "reagent": "herbalPaste"
     },
     {
       "effect": "damageBoost",
@@ -47,7 +47,7 @@
       "strong": true,
       "color": "white",
       "extract": "addedhealthmechanics:ingredient:9",
-      "reagent": "addedhealthmechanics:ingredient:3"
+      "reagent": "cactusGel"
     },
     {
       "effect": "moveSpeed",
@@ -55,7 +55,7 @@
       "strong": true,
       "color": "ltblue",
       "extract": "addedhealthmechanics:ingredient:10",
-      "reagent": "addedhealthmechanics:ingredient:2"
+      "reagent": "rootPowder"
     },
     {
       "effect": "fireResistance",
@@ -63,7 +63,7 @@
       "strong": false,
       "color": "brown",
       "extract": "addedhealthmechanics:ingredient:11",
-      "reagent": "addedhealthmechanics:ingredient:3"
+      "reagent": "cactusGel"
     },
     {
       "effect": "resistance",
@@ -71,7 +71,7 @@
       "strong": true,
       "color": "ltgrey",
       "extract": "addedhealthmechanics:ingredient:12",
-      "reagent": "addedhealthmechanics:ingredient:0"
+      "reagent": "herbalPaste"
     },
     {
       "effect": "waterBreathing",
@@ -79,7 +79,7 @@
       "strong": false,
       "color": "blue",
       "extract": "addedhealthmechanics:ingredient:13",
-      "reagent": "addedhealthmechanics:ingredient:15"
+      "reagent": "aqueousPulp"
     }
   ],
   "tiers": [
