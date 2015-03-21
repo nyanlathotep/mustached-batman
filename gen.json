@@ -84,7 +84,19 @@
       "normal": [40, 0],
       "long": [100, 0],
       "strong": [30, 1],
-      "file": "gen/tincture.js"
+      "file": "gen/tincture.js",
+      "postamble": [
+        "addToCreative[31] = true;",
+        "textureFile[31] = 'vial_purple';",
+        "alwaysEdible[31] = true;",
+        "usingAction[31] = 'drink';",
+        "potion[31] = 'poison';",
+        "potionAmplifier[31] = 255;",
+        "potionDuration[31] = 0;",
+        "potionProbability[31] = 1;",
+        "hunger[31] = 0;",
+        "information[31] = 'Cures poison.';"
+      ]
     },
     {
       "id": "potion",
@@ -97,7 +109,16 @@
       "normal": [120, 0],
       "long": [300, 0],
       "strong": [90, 1],
-      "file": "gen/potion.js"
+      "file": "gen/potion.js",
+      "postamble": [
+        "addToCreative[31] = true;",
+        "textureFile[31] = 'potion_purple';",
+        "alwaysEdible[31] = true;",
+        "usingAction[31] = 'drink';",
+        "onEaten[31] = 'player.addPotionEffect(\"poison\", 0, 255); player.addPotionEffect(\"wither\", 0, 255);",
+        "hunger[31] = 0;",
+        "information[31] = 'Cures poison and wither.';"
+      ]
     },
     {
       "id": "elixir",
@@ -110,7 +131,8 @@
       "normal": [240, 1],
       "long": [600, 1],
       "strong": [180, 2],
-      "file": "gen/elixir.js"
+      "file": "gen/elixir.js",
+      "postamble": []
     }
   ],
   "language": {
@@ -119,5 +141,12 @@
     "normal": ""
   },
   "langFile": "gen/en_US.lang",
-  "recipeFile": "gen/alchemy.js"
+  "recipeFile": "gen/alchemy.js",
+  "recipePostamble": [
+
+  ],
+  "langPostamble": [
+    "item.tincture31.name=Tincture of Remedy",
+    "item.potion31.name=Potion of Remedy"
+  ]
 }

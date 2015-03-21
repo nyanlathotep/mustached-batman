@@ -65,6 +65,16 @@ for tier in data['tiers']:
     recipeFile.write('\n')
 
   lastTier = tier
+
+  for line in tier['postamble']:
+    tierFile.write(line + '\n')
+
   tierFile.close()
-recipeFile.close()
+
+for line in data['langPostamble']:
+  langFile.write(line + '\n')
 langFile.close()
+
+for line in data['recipePostamble']:
+  recipeFile.write(line + '\n')
+recipeFile.close()
