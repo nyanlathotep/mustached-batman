@@ -79,4 +79,4 @@ mod.addShapelessRecipe("upgTierBase 2", "minecraft:nether_wart", "minecraft:neth
 
 mod.addShapelessRecipe("upgStrengthBase", ":dustSaltpeter", ":listAllwater");
 
-mod.addShapelessRecipe("upgLengthBase", ":dustSulphur", ":listAllwater");
+mod.addShapelessRecipe("upgLengthBase", ":dustSulfur", ":listAllwater");
