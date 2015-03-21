@@ -145,7 +145,7 @@
       "postamble": []
     }
   ],
-  "language": {
+  "groups": {
     "strong": "Thick ",
     "long": "Thin ",
     "normal": ""

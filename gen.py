@@ -32,7 +32,7 @@ for tier in data['tiers']:
       potions[group] = "addedhealthmechanics:%s:%d" % (tier['id'], meta)
 
       # lang file entry
-      name = tier['name'] % {'effect': effect['name'], 'group': data['language'][group]}
+      name = tier['name'] % {'effect': effect['name'], 'group': data['groups'][group]}
       #langFile.write('item.%s%d.name=%s\n' % (tier['id'], meta, name))
       langEntries['item.%s%d.name' % (tier['id'], meta)] = name
 
