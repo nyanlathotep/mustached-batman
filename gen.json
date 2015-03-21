@@ -94,7 +94,7 @@
       "normal": [40, 0],
       "long": [100, 0],
       "strong": [30, 1],
-      "file": "scripts/tincture.js",
+      "file": "items/tincture.js",
       "postamble": [
         "addToCreative[31] = true;",
         "textureFile[31] = 'vial_purple';",
@@ -119,13 +119,13 @@
       "normal": [120, 0],
       "long": [300, 0],
       "strong": [90, 1],
-      "file": "scripts/potion.js",
+      "file": "items/potion.js",
       "postamble": [
         "addToCreative[31] = true;",
         "textureFile[31] = 'potion_purple';",
         "alwaysEdible[31] = true;",
         "usingAction[31] = 'drink';",
-        "onEaten[31] = 'player.addPotionEffect(\"poison\", 0, 255); player.addPotionEffect(\"wither\", 0, 255);",
+        "onEaten[31] = 'player.addPotionEffect(\"poison\", 0, 255); player.addPotionEffect(\"wither\", 0, 255);';",
         "hunger[31] = 0;",
         "information[31] = 'Cures poison and wither.';"
       ]
@@ -141,7 +141,7 @@
       "normal": [240, 1],
       "long": [600, 1],
       "strong": [180, 2],
-      "file": "scripts/elixir.js",
+      "file": "items/elixir.js",
       "postamble": []
     }
   ],
