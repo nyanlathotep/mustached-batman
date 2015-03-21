@@ -80,4 +80,12 @@ information[18] = "This should have some|anaesthetic properties.|Not much good a
 
 addToCreative[19] = true;
 textureFile[19] = "meds_leaf";
-information[19] = "Some leaves.  Might have|some medicinal uses.";
+information[19] = "Could be useful in a pinch.";
+
+addToCreative[20] = true;
+textureFile[20] = "meds_woodAsh";
+information[20] = "Good planks gone to|waste...";
+
+addToCreative[21] = true;
+textureFile[21] = "meds_lye";
+information[21] = "A sterile agent. Good for|breaking down organic|compounds.";
