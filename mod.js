@@ -9,5 +9,3 @@ mod.loadScript("extract.js")
 mod.loadScript("reagent.js")
 mod.loadScript("medicine.js")
 mod.loadScript("tweak.js")
-
-//Test text made by ME!
