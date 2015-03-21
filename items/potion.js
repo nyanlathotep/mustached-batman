@@ -304,10 +304,3 @@ hunger[25] = 0
 hasEffect[25] = true;
 information[25] = "Duration: 5m0s";
 
-addToCreative[31] = true;
-textureFile[31] = 'potion_purple';
-alwaysEdible[31] = true;
-usingAction[31] = 'drink';
-onEaten[31] = 'player.addPotionEffect("poison", 0, 255); player.addPotionEffect("wither", 0, 255);';
-hunger[31] = 0;
-information[31] = 'Cures poison and wither.';

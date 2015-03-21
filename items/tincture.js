@@ -304,13 +304,22 @@ hunger[25] = 0
 hasEffect[25] = true;
 information[25] = "Duration: 1m40s";
 
+addToCreative[30] = true;
+textureFile[30] = 'vial_purple';
+alwaysEdible[30] = true;
+usingAction[30] = 'drink';
+potion[30] = 'poison';
+potionAmplifier[30] = 255;
+potionDuration[30] = 0;
+potionProbability[31] = 1;
+hunger[30] = 0;
+information[30] = 'Cures poison.';
+
 addToCreative[31] = true;
 textureFile[31] = 'vial_purple';
 alwaysEdible[31] = true;
 usingAction[31] = 'drink';
-potion[31] = 'poison';
-potionAmplifier[31] = 255;
-potionDuration[31] = 0;
-potionProbability[31] = 1;
+onEaten[31] = 'player.addPotionEffect("poison", 0, 255); player.addPotionEffect("wither", 0, 255);';
 hunger[31] = 0;
-information[31] = 'Cures poison.';
+hasEffect[31] = true;
+information[31] = 'Cures poison and wither.';
