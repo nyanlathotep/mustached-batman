@@ -96,16 +96,25 @@
       "strong": [30, 1],
       "file": "items/tincture.js",
       "postamble": [
+        "addToCreative[30] = true;",
+        "textureFile[30] = 'vial_purple';",
+        "alwaysEdible[30] = true;",
+        "usingAction[30] = 'drink';",
+        "potion[30] = 'poison';",
+        "potionAmplifier[30] = 255;",
+        "potionDuration[30] = 0;",
+        "potionProbability[31] = 1;",
+        "hunger[30] = 0;",
+        "information[30] = 'Cures poison.';",
+        "",
         "addToCreative[31] = true;",
         "textureFile[31] = 'vial_purple';",
         "alwaysEdible[31] = true;",
         "usingAction[31] = 'drink';",
-        "potion[31] = 'poison';",
-        "potionAmplifier[31] = 255;",
-        "potionDuration[31] = 0;",
-        "potionProbability[31] = 1;",
+        "onEaten[31] = 'player.addPotionEffect(\"poison\", 0, 255); player.addPotionEffect(\"wither\", 0, 255);';",
         "hunger[31] = 0;",
-        "information[31] = 'Cures poison.';"
+        "hasEffect[31] = true;",
+        "information[31] = 'Cures poison and wither.';"
       ]
     },
     {
@@ -120,15 +129,7 @@
       "long": [300, 0],
       "strong": [90, 1],
       "file": "items/potion.js",
-      "postamble": [
-        "addToCreative[31] = true;",
-        "textureFile[31] = 'potion_purple';",
-        "alwaysEdible[31] = true;",
-        "usingAction[31] = 'drink';",
-        "onEaten[31] = 'player.addPotionEffect(\"poison\", 0, 255); player.addPotionEffect(\"wither\", 0, 255);';",
-        "hunger[31] = 0;",
-        "information[31] = 'Cures poison and wither.';"
-      ]
+      "postamble": []
     },
     {
       "id": "elixir",
@@ -154,10 +155,10 @@
   "recipeFile": "scripts/alchemy.js",
   "recipePostamble": [
     "mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');",
-    "mod.addShapelessRecipe('addedhealthmechanics:potion:31', 'addedhealthmechanics:tincture:31', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');"
+    "mod.addShapelessRecipe('addedhealthmechanics:tincture:30', 'addedhealthmechanics:tincture:31', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');"
   ],
   "langExtras": {
-    "item.tincture31.name": "Tincture of Remedy",
-    "item.potion31.name": "Potion of Remedy"
+    "item.tincture31.name": "Thick Tincture of Remedy",
+    "item.tincture30.name": "Tincture of Remedy"
   }
 }

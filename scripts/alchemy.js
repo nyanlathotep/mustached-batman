@@ -215,4 +215,4 @@ mod.addShapelessRecipe('addedhealthmechanics:elixir:25', ':AHM_elixir_waterBreat
 mod.addShapelessRecipe('addedhealthmechanics:elixir:24', ':AHM_potion_waterBreathing', 'upgTierBase', 'ThermalFoundation:material:44');
 
 mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');
-mod.addShapelessRecipe('addedhealthmechanics:potion:31', 'addedhealthmechanics:tincture:31', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:30', 'addedhealthmechanics:tincture:31', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
