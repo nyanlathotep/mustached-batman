@@ -322,4 +322,4 @@ usingAction[31] = 'drink';
 onEaten[31] = 'player.addPotionEffect("poison", 0, 255); player.addPotionEffect("wither", 0, 255); player.addPotionEffect("hunger", 0, 255);';
 hunger[31] = 0;
 hasEffect[31] = true;
-information[31] = 'Cures poison and wither.';
+information[31] = 'Cures poison, wither, and hunger.';
