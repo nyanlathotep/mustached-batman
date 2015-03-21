@@ -55,7 +55,7 @@ mod.addToOreDictionary("AHMyellowPlant", "minecraft:yellow_flower");
 mod.addToOreDictionary("AHMyellowPlant", "ExtrabiomesXL:flower3:4");
 mod.addToOreDictionary("AHMyellowPlant", "ExtrabiomesXL:flower3:5");
 
-mod.addShapelessRecipe("addedhealthmechanics:ingredient:9", ":AHMwhitePlant", ":AHMwhitePlant", "harvestcraft:saucepanItem");
+mod.addShapelessRecipe("addedhealthmechanics:ingredient:9", ":AHMyellowPlant", ":AHMyellowPlant", "harvestcraft:saucepanItem");
 
  //White flower dictionary and crafting
 mod.addToOreDictionary("AHMwhitePlant", "ExtrabiomesXL:flower2:8");
