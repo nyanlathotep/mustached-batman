@@ -1,0 +1,121 @@
+{
+  "effects": [
+    {
+      "effect": "nightVision",
+      "name": "Night Vision",
+      "strong": false,
+      "color": "red",
+      "extract": "addedhealthmechanics:ingredient:4"
+    },
+    {
+      "effect": "jump",
+      "name": "Jump Boost",
+      "strong": true,
+      "color": "orange",
+      "extract": "addedhealthmechanics:ingredient:5",
+      "bonus": 1
+    },
+    {
+      "effect": "invisibility",
+      "name": "Invisibility",
+      "strong": false,
+      "color": "pink",
+      "extract": "addedhealthmechanics:ingredient:6"
+    },
+    {
+      "effect": "digSpeed",
+      "name": "Haste",
+      "strong": true,
+      "color": "magenta",
+      "extract": "addedhealthmechanics:ingredient:7"
+    },
+    {
+      "effect": "absorption",
+      "name": "Absorption",
+      "strong": true,
+      "color": "yellow",
+      "extract": "addedhealthmechanics:ingredient:8"
+    },
+    {
+      "effect": "damageBoost",
+      "name": "Strength",
+      "strong": true,
+      "color": "white",
+      "extract": "addedhealthmechanics:ingredient:9"
+    },
+    {
+      "effect": "moveSpeed",
+      "name": "Speed",
+      "strong": true,
+      "color": "ltblue",
+      "extract": "addedhealthmechanics:ingredient:10"
+    },
+    {
+      "effect": "fireResistance",
+      "name": "Fire Resistance",
+      "strong": false,
+      "color": "brown",
+      "extract": "addedhealthmechanics:ingredient:11"
+    },
+    {
+      "effect": "resistance",
+      "name": "Resistance",
+      "strong": true,
+      "color": "ltgrey",
+      "extract": "addedhealthmechanics:ingredient:12"
+    },
+    {
+      "effect": "waterBreathing",
+      "name": "Water Breathing",
+      "strong": false,
+      "color": "blue",
+      "extract": "addedhealthmechanics:ingredient:13"
+    }
+  ],
+  "tiers": [
+    {
+      "id": "tincture",
+      "texture": "vial_%s",
+      "name": "%(group)sTincture of %(effect)s",
+      "oreDict": "AHM_tincture_%s",
+      "craft": "craft potion %s from %s",
+      "strength": "thicken potion %s from %s",
+      "length": "thin potion %s from %s",
+      "normal": [40, 0],
+      "long": [100, 0],
+      "strong": [30, 1],
+      "file": "gen/tincture.js"
+    },
+    {
+      "id": "potion",
+      "texture": "potion_%s",
+      "name": "%(group)sPotion of %(effect)s",
+      "oreDict": "AHM_potion_%s",
+      "strength": "thicken potion %s from %s",
+      "length": "thin potion %s from %s",
+      "tier": "upgrade potion %s from %s",
+      "normal": [120, 0],
+      "long": [300, 0],
+      "strong": [90, 1],
+      "file": "gen/potion.js"
+    },
+    {
+      "id": "elixir",
+      "texture": "elixir_%s",
+      "name": "%(group)sElixir of %(effect)s",
+      "oreDict": "AHM_elixir_%s",
+      "strength": "thicken potion %s from %s",
+      "length": "thin potion %s from %s",
+      "tier": "upgrade potion %s from %s",
+      "normal": [240, 1],
+      "long": [600, 1],
+      "strong": [180, 2],
+      "file": "gen/elixir.js"
+    }
+  ],
+  "language": {
+    "strong": "Thick ",
+    "long": "Thin ",
+    "normal": ""
+  }
+}
