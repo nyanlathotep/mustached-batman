@@ -54,13 +54,13 @@ for tier in data['tiers']:
     recipeFile.write('\n')
 
     if 'craft' in tier:
-      recipeFile.write((tier['craft'] + '\n') % (potions['normal'], effect['extract']))
+      recipeFile.write((tier['craft'] + '\n') % {'output': potions['normal'], 'input': effect['extract'], 'reagent': effect['reagent']})
     if 'strength' in tier and effect['strong']:
-      recipeFile.write((tier['strength'] + '\n') % (potions['strong'], ':' + oreDict))
+      recipeFile.write((tier['strength'] + '\n') % {'output': potions['strong'], 'input': ':' + oreDict})
     if 'length' in tier:
-      recipeFile.write((tier['length'] + '\n') % (potions['long'], ':' + oreDict))
+      recipeFile.write((tier['length'] + '\n') % {'output': potions['long'], 'input': ':' + oreDict})
     if 'tier' in tier:
-      recipeFile.write((tier['tier'] + '\n') % (potions['normal'], ':' + lastOreDict))
+      recipeFile.write((tier['tier'] + '\n') % {'output': potions['normal'], 'input': ':' + lastOreDict})
 
     recipeFile.write('\n')
 
