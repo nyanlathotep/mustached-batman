@@ -10,7 +10,7 @@ if (player.isSneaking()) {
         player.sendMessage(interactPlayer.getUsername() + "'s wounds have been treated recently, wait a while.");          
       }
     } else {
-      itemstack.setStackSize(itemstack.getStackSize() - 1);
+      itemstack.damageItem(1);
       interactPlayer.setHealth(Math.min(interactPlayer.getHealth() + config.getInt("poulticeBagRecovery", "medicine"), interactPlayer.getMaxHealth()));
       interactPlayer.getNbt().setInt("AHMcooldown", curTime + config.getInt("poulticeBagCooldown", "medicine"));
     }
@@ -18,7 +18,7 @@ if (player.isSneaking()) {
     player.sendMessage(interactPlayer.getUsername() + " is in good shape.");
   }
 } else {
-  var deltaHealth = interactPlayer.getMaxHealth() - interactPlayer.getHealth()
+  var deltaHealth = interactPlayer.getMaxHealth() - interactPlayer.getHealth();
   if (deltaHealth == 0) {
     player.sendMessage(interactPlayer.getUsername() + " is in good shape.");    
   } else if (deltaHealth < config.getInt("poulticeBagRecovery", "medicine")) {
