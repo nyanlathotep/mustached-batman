@@ -55,6 +55,13 @@ mod.addRecipe("medFlintBlade", 2, 2, "minecraft:air", "TConstruct:knifeBlade:3",
 
 mod.addShapelessRecipe("addedhealthmechanics:medbag_basic:8", "minecraft:leather", "minecraft:string", "medFlintBlade");
 
+
+//MedKit recipe
+mod.addRecipe("medScalpel", 2, 2, "minecraft:air", "TConstruct:knifeBlade:2", "TConstruct:toolRod:2", "minecraft:air");
+
+
+
+
 //Empty = empty
 mod.addShapelessRecipe("addedhealthmechanics:medbag_basic:8", "addedhealthmechanics:medbag_basic:8");
 //Bag = poultice + 1 dmg
@@ -112,3 +119,5 @@ mod.addShapelessRecipe("addedhealthmechanics:medbag_basic:1", "addedhealthmechan
 mod.addShapelessRecipe("addedhealthmechanics:medbag_basic:2", "addedhealthmechanics:medbag_basic:8", "medPoultice", "medPoultice", "medPoultice", "medPoultice", "medPoultice", "medPoultice");
 //Empty + 7 = 7
 mod.addShapelessRecipe("addedhealthmechanics:medbag_basic:1", "addedhealthmechanics:medbag_basic:8", "medPoultice", "medPoultice", "medPoultice", "medPoultice", "medPoultice", "medPoultice", "medPoultice");
+
+
