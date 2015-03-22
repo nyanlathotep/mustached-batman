@@ -51,7 +51,7 @@ mod.addShapelessRecipe("medBandage 3", "harvestcraft:wovencottonItem", ":slimeba
 //poultice bag recipes
 
 //Flint Blade (for poultice bag)
-mod.addRecipe("medFlintBlade", 2, 2, "minecraft:air", "flintBlade", "woodRod", "minecraft:air");
+mod.addRecipe("medFlintBlade", 2, 2, "minecraft:air", "TConstruct:knifeBlade:3", "TConstruct:toolRod:0", "minecraft:air");
 
 mod.addShapelessRecipe("addedhealthmechanics:medbag_basic:8", "minecraft:leather", "minecraft:string", "medFlintBlade");
 
