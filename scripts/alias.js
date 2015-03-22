@@ -21,6 +21,7 @@ mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 21, "medLye");
 mod.addAliasWithMetadata("addedhealthmechanics:consumable", 0, "medPoultice");
 mod.addAliasWithMetadata("addedhealthmechanics:consumable", 1, "medBandage");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 25, "medFlintBlade");
+mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 26, "medScalpel");
 
 // TiC parts
 //mod.addAliasWithMetadata("TConstruct:knifeBlade", 3, "flintBlade")
