@@ -122,8 +122,60 @@ mod.addRecipe("medScalpel", 2, 2, "minecraft:air", "TConstruct:knifeBlade:2", "T
 //Make a medkit
 mod.addRecipe("addedhealthmechanics:medbag_advanced:8", 3, 3, "minecraft:air", "harvestcraft:wovencottonItem", "minecraft:air", "harvestcraft:wovencottonItem", "medScalpel", "harvestcraft:wovencottonItem", "minecraft:air", "harvestcraft:wovencottonItem", "minecraft:air");
 
-//Sterlize a new or used medkit
-mod.addShapelessRecipe("medDirtyBag", "harvestcraft:wovencottonItem", "minecraft:string", "harvestcraft:potItem", ":listAllwater", "medGreen", "medBlue", "medMagenta", "addedhealthmechanics:medbag_advanced:8");
+//Empty = empty
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:8", "addedhealthmechanics:medbag_advanced:8");
+//Bag = bandage + 1 dmg
+mod.addShapelessRecipe("medBandage", "addedhealthmechanics:medbag_advanced-");
 
-//Refill a sterilized medkit
-mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "medDirtyBag", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+//Empty + 8 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:8", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+//kit|bandage|result
+//1 + 7 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:7", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+//2 + 6 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:6", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+//3 + 5 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:5", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+//4 + 4 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:4", "medBandage", "medBandage", "medBandage", "medBandage");
+//5 + 3 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:3", "medBandage", "medBandage", "medBandage");
+//6 + 2 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:2", "medBandage", "medBandage");
+//7 + 1 = full
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "addedhealthmechanics:medbag_advanced:1", "medBandage");
+//ALL + 1 = ALL+1
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:1", "addedhealthmechanics:medbag_advanced:2", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:2", "addedhealthmechanics:medbag_advanced:3", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:3", "addedhealthmechanics:medbag_advanced:4", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:4", "addedhealthmechanics:medbag_advanced:5", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:5", "addedhealthmechanics:medbag_advanced:6", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:6", "addedhealthmechanics:medbag_advanced:7", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:7", "addedhealthmechanics:medbag_advanced:8", "medBandage");
+//ALL + 2 = ALL+2
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:1", "addedhealthmechanics:medbag_advanced:3", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:2", "addedhealthmechanics:medbag_advanced:4", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:3", "addedhealthmechanics:medbag_advanced:5", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:4", "addedhealthmechanics:medbag_advanced:6", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:5", "addedhealthmechanics:medbag_advanced:7", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:6", "addedhealthmechanics:medbag_advanced:8", "medBandage", "medBandage");
+//ALL + 3 = ALL+3
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:1", "addedhealthmechanics:medbag_advanced:4", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:2", "addedhealthmechanics:medbag_advanced:5", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:3", "addedhealthmechanics:medbag_advanced:6", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:4", "addedhealthmechanics:medbag_advanced:7", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:5", "addedhealthmechanics:medbag_advanced:8", "medBandage", "medBandage", "medBandage");
+//ALL + 4 = ALL+4
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:1", "addedhealthmechanics:medbag_advanced:5", "medBandage", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:2", "addedhealthmechanics:medbag_advanced:6", "medBandage", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:3", "addedhealthmechanics:medbag_advanced:7", "medBandage", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:4", "addedhealthmechanics:medbag_advanced:8", "medBandage", "medBandage", "medBandage", "medBandage");
+//ALL + 5 = ALL+3
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:1", "addedhealthmechanics:medbag_advanced:6", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:2", "addedhealthmechanics:medbag_advanced:7", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:3", "addedhealthmechanics:medbag_advanced:8", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+//ALL + 6 = ALL+2
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:1", "addedhealthmechanics:medbag_advanced:7", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:2", "addedhealthmechanics:medbag_advanced:8", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+//Empty + 7 = 7
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:1", "addedhealthmechanics:medbag_advanced:8", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
