@@ -1,5 +1,5 @@
 if (itemstack.getDamage() == 8) {
-  player.sendMessage("The pouch is empty.")
+  player.sendMessage("The kit is empty.")
 } else {
   if (player.isSneaking()) {
     if (interactPlayer.getMaxHealth() > interactPlayer.getHealth()) {
@@ -15,10 +15,10 @@ if (itemstack.getDamage() == 8) {
         }
       } else {
         player.sendMessage("You apply a poultice to " + interactPlayer.getUsername() + ". " + itemstack.getDamage())
-        interactPlayer.sendMessage(player.getUsername() + " applies a poultice to your wounds.");
+        interactPlayer.sendMessage(player.getUsername() + " applies a bandage to your wounds.");
         itemstack.damageItem(1);
-        interactPlayer.setHealth(Math.min(interactPlayer.getHealth() + config.getInt("poulticeBagRecovery", "medicine"), interactPlayer.getMaxHealth()));
-        interactPlayer.getNbt().setInt("PlayerPersisted/AHMcooldown", curTime + config.getInt("poulticeBagCooldown", "medicine"));
+        interactPlayer.setHealth(Math.min(interactPlayer.getHealth() + config.getInt("bandageBagRecovery", "medicine"), interactPlayer.getMaxHealth()));
+        interactPlayer.getNbt().setInt("PlayerPersisted/AHMcooldown", curTime + config.getInt("bandageBagCooldown", "medicine"));
       }
     } else {
       interactPlayer.sendMessage(player.getUsername() + " examines your wounds.");
@@ -29,7 +29,7 @@ if (itemstack.getDamage() == 8) {
     interactPlayer.sendMessage(player.getUsername() + " examines your wounds.");
     if (deltaHealth == 0) {
       player.sendMessage(interactPlayer.getUsername() + " is in good shape.");    
-    } else if (deltaHealth < config.getInt("poulticeBagRecovery", "medicine")) {
+    } else if (deltaHealth < config.getInt("bandageBagRecovery", "medicine")) {
       player.sendMessage(interactPlayer.getUsername() + " is a bit banged up.");   
     } else if (deltaHealth < 9) {
       player.sendMessage(interactPlayer.getUsername() + " has minor wounds.");   
