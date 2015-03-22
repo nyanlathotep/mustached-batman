@@ -123,7 +123,7 @@ mod.addRecipe("medScalpel", 2, 2, "minecraft:air", "TConstruct:knifeBlade:2", "T
 mod.addRecipe("addedhealthmechanics:medbag_advanced:8", 3, 3, "minecraft:air", "harvestcraft:wovencottonItem", "minecraft:air", "harvestcraft:wovencottonItem", "medScalpel", "harvestcraft:wovencottonItem", "minecraft:air", "harvestcraft:wovencottonItem", "minecraft:air");
 
 //Sterlize a new or used medkit
-mod.addShapelessRecipe("medDirtyBag", "harvestcraft:wovencottonItem", "minecraft:string", "harvestcraft:potItem", "listAllwater", "medGreen", "medBlue", "medMagenta", "addedhealthmechanics:medbag_advanced:8");
+mod.addShapelessRecipe("medDirtyBag", "harvestcraft:wovencottonItem", "minecraft:string", "harvestcraft:potItem", ":listAllwater", "medGreen", "medBlue", "medMagenta", "addedhealthmechanics:medbag_advanced:8");
 
 //Refill a sterilized medkit
 mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
