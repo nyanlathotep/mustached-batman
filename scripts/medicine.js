@@ -126,4 +126,4 @@ mod.addRecipe("addedhealthmechanics:medbag_advanced:8", 3, 3, "minecraft:air", "
 mod.addShapelessRecipe("medDirtyBag", "harvestcraft:wovencottonItem", "minecraft:string", "harvestcraft:potItem", ":listAllwater", "medGreen", "medBlue", "medMagenta", "addedhealthmechanics:medbag_advanced:8");
 
 //Refill a sterilized medkit
-mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
+mod.addShapelessRecipe("addedhealthmechanics:medbag_advanced:0", "medDirtyBag", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage", "medBandage");
