@@ -22,4 +22,3 @@ mod.addAliasWithMetadata("addedhealthmechanics:consumable", 0, "medPoultice");
 mod.addAliasWithMetadata("addedhealthmechanics:consumable", 1, "medBandage");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 25, "medFlintBlade");
 mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 26, "medScalpel");
-mod.addAliasWithMetadata("addedhealthmechanics:ingredient", 27, "medDirtyBag")
