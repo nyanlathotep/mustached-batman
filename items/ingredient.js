@@ -101,3 +101,7 @@ information[23] = "Should help you enhance|some potions.";
 addToCreative[24] = true;
 textureFile[24] = "upg_tier";
 information[24] = "Should help you give your|potions quite a boost."
+
+addToCreative[25] = true;
+textureFile[25] = "meds_flint_blade";
+information[25] = "An important piece of any|basic first aid kit."
