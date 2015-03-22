@@ -47,3 +47,7 @@ mod.addRecipe("medPoultice", 3, 2, "minecraft:air", "medLeaf", "minecraft:air", 
 
 //Bandage recipe
 mod.addShapelessRecipe("medBandage 3", "harvestcraft:wovencottonItem", ":slimeball", "medGreen", "medGreen", "medBlue", "medBlue", "medMagenta", "medMagenta");
+
+//poultice bag recipes
+mod.addShapelessRecipe("addedhealthmechanics:medbag_basic:8", "addedhealthmechanics:medbag_basic:8")
+mod.addShapelessRecipe("medPoultice", "addedhealthmechanics:medbag_basic-")

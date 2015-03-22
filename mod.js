@@ -4,6 +4,7 @@ mod.addItem("tincture.js", "food");
 mod.addItem("potion.js", "food");
 mod.addItem("elixir.js", "food");
 mod.addItem("consumable.js", "normal");
+mod.addItem("poultice_bag.js", "normal");
 
 // general config/utility stuff
 mod.addCreativeTab("Medicine", "addedhealthmechanics:ingredient:0");
