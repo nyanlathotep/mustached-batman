@@ -1,6 +1,6 @@
 if (player.isSneaking()) {
   if (interactPlayer.getMaxHealth() > interactPlayer.getHealth()) {
-    var nextUse = interactPlayer.getNbt().getInt("AHMcooldown");
+    var nextUse = interactPlayer.getNbt().getInt("PlayerPersisted/AHMcooldown");
     var curTime = world.getTime();
     if (nextUse > curTime) {
       var interval = nextUse - curTime;
@@ -10,9 +10,10 @@ if (player.isSneaking()) {
         player.sendMessage(interactPlayer.getUsername() + "'s wounds have been treated recently, wait a while.");          
       }
     } else {
+      player.sendMessage("You apply a poultice to " + interactPlayer.getUsername() + ". " + itemstack.getDamage())
       itemstack.damageItem(1);
       interactPlayer.setHealth(Math.min(interactPlayer.getHealth() + config.getInt("poulticeBagRecovery", "medicine"), interactPlayer.getMaxHealth()));
-      interactPlayer.getNbt().setInt("AHMcooldown", curTime + config.getInt("poulticeBagCooldown", "medicine"));
+      interactPlayer.getNbt().setInt("PlayerPersisted/AHMcooldown", curTime + config.getInt("poulticeBagCooldown", "medicine"));
     }
   } else {
     player.sendMessage(interactPlayer.getUsername() + " is in good shape.");

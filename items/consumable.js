@@ -14,4 +14,4 @@ onRightClick[1] = "mod.loadScript('bandage_use.js');";
 
 addToCreative[31] = true;
 textureFile[31] = "test_gem";
-onRightClick[31] = "player.getNbt().setInt('AHMcooldown', 0); player.sendMessage('Medicine initialized.'); itemstack.setStackSize(0);";
+onRightClick[31] = "player.getNbt().setInt('PlayerPersisted/AHMcooldown', 0); player.sendMessage('Medicine initialized.'); itemstack.setStackSize(0);";

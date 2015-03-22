@@ -1,6 +1,6 @@
 if (player.isSneaking()) {
   if (player.getMaxHealth() > player.getHealth()) {
-    var nextUse = player.getNbt().getInt("AHMcooldown");
+    var nextUse = player.getNbt().getInt("PlayerPersisted/AHMcooldown");
     var curTime = world.getTime();
     if (nextUse > curTime) {
       var interval = nextUse - curTime;
@@ -12,7 +12,7 @@ if (player.isSneaking()) {
     } else {
       itemstack.setStackSize(itemstack.getStackSize() - 1);
       player.setHealth(Math.min(player.getHealth() + config.getInt("poulticeRecovery", "medicine"), player.getMaxHealth()));
-      player.getNbt().setInt("AHMcooldown", curTime + config.getInt("poulticeCooldown", "medicine"));
+      player.getNbt().setInt("PlayerPersisted/AHMcooldown", curTime + config.getInt("poulticeCooldown", "medicine"));
     }
   } else {
     player.sendMessage("You're in good shape, no need to patch up.");
