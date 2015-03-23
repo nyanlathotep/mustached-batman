@@ -1,4 +1,4 @@
-var type = itemstack.getDamage()
+var type = itemstack.getDamage();
 var level_req = 5;
 
 if (type == 3) {
@@ -7,12 +7,22 @@ if (type == 3) {
   level_req = 20;
 }
 
-var level_cur = player.getExperienceLevel()
+level_req = level_req * itemstack.getStackSize();
 
-if (level_cur > level_req) {
-  player.removeExperienceLevel(level_req)
-  player.sendMessage("Heart charged!")
-  itemstack.setDamage(type + 3)
+var level_cur = player.getExperienceLevel();
+
+if (level_cur >= level_req) {
+  player.removeExperienceLevel(level_req);
+  var heart_lang = "s";
+  if (itemstack.getStackSize() == 1) {
+    heart_lang = "";
+  }
+  player.sendMessage("Heart" + heart_lang + " charged!");
+  itemstack.setDamage(type + 3);
 } else {
-  player.sendMessage("You do not have enough XP to charge this heart. You need " + level_req + " levels.")
+  var heart_lang = "these hearts";
+  if (itemstack.getStackSize() == 1) {
+    heart_lang = "this heart"
+  }
+  player.sendMessage("You do not have enough XP to charge " + heart_lang + ". You need " + level_req + " levels.");
 }
