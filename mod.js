@@ -17,5 +17,4 @@ mod.loadScript("alchemy.js");
 mod.loadScript("extract.js");
 mod.loadScript("reagent.js");
 mod.loadScript("medicine.js");
-mod.loadScript("regen.js");
 mod.loadScript("tweak.js");
