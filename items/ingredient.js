@@ -92,15 +92,15 @@ information[21] = "A sterile agent. Good for|breaking down organic|compounds.";
 
 addToCreative[22] = true;
 textureFile[22] = "upg_strength";
-information[22] = "Should help you enhance|some potions.";
+information[22] = "Should help you §lenhance§r|some potions.";
 
 addToCreative[23] = true;
 textureFile[23] = "upg_length";
-information[23] = "Should help you enhance|some potions.";
+information[23] = "Should help you §oextend§r|some potions.";
 
 addToCreative[24] = true;
 textureFile[24] = "upg_tier";
-information[24] = "Should help you give your|potions quite a boost."
+information[24] = "Should help you give your|potions §bquite§r §7the§r §6boost§r."
 
 addToCreative[25] = true;
 textureFile[25] = "meds_flint_blade";
