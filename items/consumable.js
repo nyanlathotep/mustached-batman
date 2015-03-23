@@ -39,7 +39,7 @@ onRightClick[6] = "mod.loadScript('regen_heart_use.js');";
 
 addToCreative[7] = true;
 textureFile[7] = "regen_heart_ender";
-information[7] = "§fFully charged!|§7Strength: 1 Heart Capsule|Limit: 15 Heart Capsules|Bonus: Guarantees 11 Heart Capsules"";
+information[7] = "§fFully charged!|§7Strength: 1 Heart Capsule|Limit: 15 Heart Capsules|Bonus: Guarantees 11 Heart Capsules";
 onRightClick[7] = "mod.loadScript('regen_heart_use.js');";
 
 addToCreative[31] = true;
