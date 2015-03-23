@@ -29,17 +29,17 @@ onRightClick[4] = "mod.loadScript('regen_heart_charge.js');";
 
 addToCreative[5] = true;
 textureFile[5] = "regen_heart_gold";
-information[5] = "§fFully charged!|§7Strength: 1/2 Heart Capsule|Limit: 5 Heart Capsules|Bonus: None";
+information[5] = "§fFully charged! §7Sneak-right click to use.|Strength: 1/2 Heart Capsule|Limit: 5 Heart Capsules|Bonus: None";
 onRightClick[5] = "mod.loadScript('regen_heart_use.js');";
 
 addToCreative[6] = true;
 textureFile[6] = "regen_heart_full";
-information[6] = "§fFully charged!|§7Strength: 1/2 Heart Capsule|Limit: 10 Heart Capsules|Bonus: Guarantees 5 & 1/2 Heart Capsules";
+information[6] = "§fFully charged! §7Sneak-right click to use.|Strength: 1/2 Heart Capsule|Limit: 10 Heart Capsules|Bonus: Guarantees 5 & 1/2 Heart Capsules";
 onRightClick[6] = "mod.loadScript('regen_heart_use.js');";
 
 addToCreative[7] = true;
 textureFile[7] = "regen_heart_ender";
-information[7] = "§fFully charged!|§7Strength: 1 Heart Capsule|Limit: 15 Heart Capsules|Bonus: Guarantees 11 Heart Capsules";
+information[7] = "§fFully charged! §7Sneak-right click to use.|Strength: 1 Heart Capsule|Limit: 15 Heart Capsules|Bonus: Guarantees 11 Heart Capsules";
 onRightClick[7] = "mod.loadScript('regen_heart_use.js');";
 
 addToCreative[31] = true;
