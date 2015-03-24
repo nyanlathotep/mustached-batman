@@ -52,6 +52,7 @@ mod.addShapelessRecipe("addedhealthmechanics:ingredient:8", ":AHMmagentaPlant", 
 
 //Yellow flower dictionary and crafting
 mod.addToOreDictionary("AHMyellowPlant", "minecraft:yellow_flower");
+mod.addToOreDictionary("AHMyellowPlant", "ExtrabiomesXL:flower2:9");
 mod.addToOreDictionary("AHMyellowPlant", "ExtrabiomesXL:flower3:4");
 mod.addToOreDictionary("AHMyellowPlant", "ExtrabiomesXL:flower3:5");
 
