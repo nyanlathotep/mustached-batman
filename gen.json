@@ -30,7 +30,7 @@
       "name": "Haste",
       "strong": true,
       "color": "magenta",
-      "extract": "addedhealthmechanics:ingredient:7",
+      "extract": "addedhealthmechanics:ingredient:8",
       "reagent": "fungalGoo"
     },
     {
@@ -38,7 +38,7 @@
       "name": "Absorption",
       "strong": true,
       "color": "yellow",
-      "extract": "addedhealthmechanics:ingredient:8",
+      "extract": "addedhealthmechanics:ingredient:9",
       "reagent": "herbalPaste"
     },
     {
@@ -46,7 +46,7 @@
       "name": "Strength",
       "strong": true,
       "color": "white",
-      "extract": "addedhealthmechanics:ingredient:9",
+      "extract": "addedhealthmechanics:ingredient:10",
       "reagent": "cactusGel"
     },
     {
@@ -54,7 +54,7 @@
       "name": "Speed",
       "strong": true,
       "color": "ltblue",
-      "extract": "addedhealthmechanics:ingredient:10",
+      "extract": "addedhealthmechanics:ingredient:11",
       "reagent": "rootPowder"
     },
     {
@@ -62,7 +62,7 @@
       "name": "Fire Resistance",
       "strong": false,
       "color": "brown",
-      "extract": "addedhealthmechanics:ingredient:11",
+      "extract": "addedhealthmechanics:ingredient:12",
       "reagent": "cactusGel"
     },
     {
@@ -70,7 +70,7 @@
       "name": "Resistance",
       "strong": true,
       "color": "ltgrey",
-      "extract": "addedhealthmechanics:ingredient:12",
+      "extract": "addedhealthmechanics:ingredient:13",
       "reagent": "herbalPaste"
     },
     {
@@ -78,7 +78,7 @@
       "name": "Water Breathing",
       "strong": false,
       "color": "blue",
-      "extract": "addedhealthmechanics:ingredient:13",
+      "extract": "addedhealthmechanics:ingredient:14",
       "reagent": "aqueousPulp"
     }
   ],
@@ -86,7 +86,8 @@
     {
       "id": "tincture",
       "texture": "vial_%s",
-      "name": "%(group)sTincture of %(effect)s",
+      "name": "%(color)s%(group)sTincture of %(effect)s§r",
+      "color": "§a",
       "oreDict": "AHM_tincture_%s",
       "craft": "mod.addShapelessRecipe('%(output)s', '%(input)s', '%(reagent)s', ':listAllwater', 'harvestcraft:mixingbowlItem');",
       "strength": "mod.addShapelessRecipe('%(output)s', '%(input)s', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');",
@@ -120,7 +121,8 @@
     {
       "id": "potion",
       "texture": "potion_%s",
-      "name": "%(group)sPotion of %(effect)s",
+      "name": "%(color)s%(group)sPotion of %(effect)s§r",
+      "color": "§b",
       "oreDict": "AHM_potion_%s",
       "strength": "mod.addShapelessRecipe('%(output)s', '%(input)s', 'upgStrengthBase', 'ThermalFoundation:material:35', 'minecraft:rotten_flesh');",
       "length": "mod.addShapelessRecipe('%(output)s', '%(input)s', 'upgLengthBase', 'ThermalFoundation:material:34', 'minecraft:spider_eye');",
@@ -134,7 +136,8 @@
     {
       "id": "elixir",
       "texture": "elixir_%s",
-      "name": "%(group)sElixir of %(effect)s",
+      "name": "%(color)s%(group)sElixir of %(effect)s§r",
+      "color": "§6",
       "oreDict": "AHM_elixir_%s",
       "strength": "mod.addShapelessRecipe('%(output)s', '%(input)s', 'upgStrengthBase', 'minecraft:blaze_powder', 'ThermalFoundation:material:4');",
       "length": "mod.addShapelessRecipe('%(output)s', '%(input)s', 'upgLengthBase', 'ThermalFoundation:material:1025', 'ThermalFoundation:material:4');",
@@ -147,15 +150,15 @@
     }
   ],
   "groups": {
-    "strong": "Thick ",
-    "long": "Thin ",
+    "strong": "§lThick ",
+    "long": "§oThin ",
     "normal": ""
   },
   "langFile": "assets/addedhealthmechanics/lang/en_US.lang",
   "recipeFile": "scripts/alchemy.js",
   "recipePostamble": [
-    "mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');",
-    "mod.addShapelessRecipe('addedhealthmechanics:tincture:30', 'addedhealthmechanics:tincture:31', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');"
+    "mod.addShapelessRecipe('addedhealthmechanics:tincture:30', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');",
+    "mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:tincture:30', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');"
   ],
   "langExtras": {
     "item.tincture31.name": "Thick Tincture of Remedy",

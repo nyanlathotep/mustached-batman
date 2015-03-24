@@ -22,7 +22,7 @@ mod.addToOreDictionary("AHM_tincture_digSpeed", "addedhealthmechanics:tincture:9
 mod.addToOreDictionary("AHM_tincture_digSpeed", "addedhealthmechanics:tincture:8");
 mod.addToOreDictionary("AHM_tincture_digSpeed", "addedhealthmechanics:tincture:7");
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:7', 'addedhealthmechanics:ingredient:7', 'fungalGoo', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:7', 'addedhealthmechanics:ingredient:8', 'fungalGoo', ':listAllwater', 'harvestcraft:mixingbowlItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:9', ':AHM_tincture_digSpeed', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:8', ':AHM_tincture_digSpeed', 'upgLengthBase', 'minecraft:sugar', 'harvestcraft:groundnutmegItem');
 
@@ -30,7 +30,7 @@ mod.addToOreDictionary("AHM_tincture_absorption", "addedhealthmechanics:tincture
 mod.addToOreDictionary("AHM_tincture_absorption", "addedhealthmechanics:tincture:11");
 mod.addToOreDictionary("AHM_tincture_absorption", "addedhealthmechanics:tincture:10");
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:10', 'addedhealthmechanics:ingredient:8', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:10', 'addedhealthmechanics:ingredient:9', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:12', ':AHM_tincture_absorption', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:11', ':AHM_tincture_absorption', 'upgLengthBase', 'minecraft:sugar', 'harvestcraft:groundnutmegItem');
 
@@ -38,7 +38,7 @@ mod.addToOreDictionary("AHM_tincture_damageBoost", "addedhealthmechanics:tinctur
 mod.addToOreDictionary("AHM_tincture_damageBoost", "addedhealthmechanics:tincture:14");
 mod.addToOreDictionary("AHM_tincture_damageBoost", "addedhealthmechanics:tincture:13");
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:13', 'addedhealthmechanics:ingredient:9', 'cactusGel', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:13', 'addedhealthmechanics:ingredient:10', 'cactusGel', ':listAllwater', 'harvestcraft:mixingbowlItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:15', ':AHM_tincture_damageBoost', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:14', ':AHM_tincture_damageBoost', 'upgLengthBase', 'minecraft:sugar', 'harvestcraft:groundnutmegItem');
 
@@ -46,28 +46,28 @@ mod.addToOreDictionary("AHM_tincture_moveSpeed", "addedhealthmechanics:tincture:
 mod.addToOreDictionary("AHM_tincture_moveSpeed", "addedhealthmechanics:tincture:17");
 mod.addToOreDictionary("AHM_tincture_moveSpeed", "addedhealthmechanics:tincture:16");
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:16', 'addedhealthmechanics:ingredient:10', 'rootPowder', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:16', 'addedhealthmechanics:ingredient:11', 'rootPowder', ':listAllwater', 'harvestcraft:mixingbowlItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:18', ':AHM_tincture_moveSpeed', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:17', ':AHM_tincture_moveSpeed', 'upgLengthBase', 'minecraft:sugar', 'harvestcraft:groundnutmegItem');
 
 mod.addToOreDictionary("AHM_tincture_fireResistance", "addedhealthmechanics:tincture:20");
 mod.addToOreDictionary("AHM_tincture_fireResistance", "addedhealthmechanics:tincture:19");
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:19', 'addedhealthmechanics:ingredient:11', 'cactusGel', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:19', 'addedhealthmechanics:ingredient:12', 'cactusGel', ':listAllwater', 'harvestcraft:mixingbowlItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:20', ':AHM_tincture_fireResistance', 'upgLengthBase', 'minecraft:sugar', 'harvestcraft:groundnutmegItem');
 
 mod.addToOreDictionary("AHM_tincture_resistance", "addedhealthmechanics:tincture:23");
 mod.addToOreDictionary("AHM_tincture_resistance", "addedhealthmechanics:tincture:22");
 mod.addToOreDictionary("AHM_tincture_resistance", "addedhealthmechanics:tincture:21");
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:21', 'addedhealthmechanics:ingredient:12', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:21', 'addedhealthmechanics:ingredient:13', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:23', ':AHM_tincture_resistance', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:22', ':AHM_tincture_resistance', 'upgLengthBase', 'minecraft:sugar', 'harvestcraft:groundnutmegItem');
 
 mod.addToOreDictionary("AHM_tincture_waterBreathing", "addedhealthmechanics:tincture:25");
 mod.addToOreDictionary("AHM_tincture_waterBreathing", "addedhealthmechanics:tincture:24");
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:24', 'addedhealthmechanics:ingredient:13', 'aqueousPulp', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:24', 'addedhealthmechanics:ingredient:14', 'aqueousPulp', ':listAllwater', 'harvestcraft:mixingbowlItem');
 mod.addShapelessRecipe('addedhealthmechanics:tincture:25', ':AHM_tincture_waterBreathing', 'upgLengthBase', 'minecraft:sugar', 'harvestcraft:groundnutmegItem');
 
 mod.addToOreDictionary("AHM_potion_nightVision", "addedhealthmechanics:potion:1");
@@ -214,5 +214,5 @@ mod.addToOreDictionary("AHM_elixir_waterBreathing", "addedhealthmechanics:elixir
 mod.addShapelessRecipe('addedhealthmechanics:elixir:25', ':AHM_elixir_waterBreathing', 'upgLengthBase', 'ThermalFoundation:material:1025', 'ThermalFoundation:material:4');
 mod.addShapelessRecipe('addedhealthmechanics:elixir:24', ':AHM_potion_waterBreathing', 'upgTierBase', 'ThermalFoundation:material:44');
 
-mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');
-mod.addShapelessRecipe('addedhealthmechanics:tincture:30', 'addedhealthmechanics:tincture:31', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:30', 'addedhealthmechanics:ingredient:7', 'herbalPaste', ':listAllwater', 'harvestcraft:mixingbowlItem');
+mod.addShapelessRecipe('addedhealthmechanics:tincture:31', 'addedhealthmechanics:tincture:30', 'upgStrengthBase', 'harvestcraft:chilipepperItem', 'harvestcraft:spiceleafItem');

@@ -1,5 +1,6 @@
 from json import load
 from re import match
+import codecs
 
 fp = open('gen.json', 'r')
 data = load(fp)
@@ -8,10 +9,12 @@ fp.close()
 recipeFile = open(data['recipeFile'], 'w')
 
 try:
-  langFile = open(data['langFile'], 'r')
+  langFile = codecs.open(data['langFile'], 'r', 'utf-8')
   langEntries = {}
   for line in langFile:
-    line = line.strip().partition('=')
+    line = line.strip()
+    if not line: continue
+    line = line.partition('=')
     langEntries[line[0]] = line[2]
   langFile.close()
 except IOError:
@@ -32,7 +35,7 @@ for tier in data['tiers']:
       potions[group] = "addedhealthmechanics:%s:%d" % (tier['id'], meta)
 
       # lang file entry
-      name = tier['name'] % {'effect': effect['name'], 'group': data['groups'][group]}
+      name = tier['name'] % {'color': tier['color'], 'effect': effect['name'], 'group': data['groups'][group]}
       #langFile.write('item.%s%d.name=%s\n' % (tier['id'], meta, name))
       langEntries['item.%s%d.name' % (tier['id'], meta)] = name
 
@@ -86,7 +89,7 @@ for tier in data['tiers']:
 
 for key in data['langExtras']:
   langEntries[key] = data['langExtras'][key]
-langFile = open(data['langFile'], 'w')
+langFile = codecs.open(data['langFile'], 'w', 'utf-8')
 
 def keyFunc(x):
   x = x.split('.')[1]

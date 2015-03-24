@@ -11,7 +11,7 @@ potionDuration[0] = 240;
 potionAmplifier[0] = 0;
 potionProbability[0] = 1;
 hunger[0] = 0
-information[0] = "§eDuration: 4m0s";
+information[0] = "Duration: 4m0s";
 
 addToCreative[1] = true;
 textureFile[1] = "elixir_red";
@@ -23,7 +23,7 @@ potionAmplifier[1] = 0;
 potionProbability[1] = 1;
 hunger[1] = 0
 hasEffect[1] = true;
-information[1] = "§eDuration: 10m0s";
+information[1] = "Duration: 10m0s";
 
 addToCreative[2] = true;
 textureFile[2] = "elixir_orange";
@@ -34,7 +34,7 @@ potionDuration[2] = 240;
 potionAmplifier[2] = 2;
 potionProbability[2] = 1;
 hunger[2] = 0
-information[2] = "§eDuration: 4m0s";
+information[2] = "Duration: 4m0s";
 
 addToCreative[3] = true;
 textureFile[3] = "elixir_orange";
@@ -46,7 +46,7 @@ potionAmplifier[3] = 2;
 potionProbability[3] = 1;
 hunger[3] = 0
 hasEffect[3] = true;
-information[3] = "§eDuration: 10m0s";
+information[3] = "Duration: 10m0s";
 
 addToCreative[4] = true;
 textureFile[4] = "elixir_orange";
@@ -58,7 +58,7 @@ potionAmplifier[4] = 3;
 potionProbability[4] = 1;
 hunger[4] = 0
 hasEffect[4] = true;
-information[4] = "§eDuration: 3m0s";
+information[4] = "Duration: 3m0s";
 
 addToCreative[5] = true;
 textureFile[5] = "elixir_pink";
@@ -69,7 +69,7 @@ potionDuration[5] = 240;
 potionAmplifier[5] = 0;
 potionProbability[5] = 1;
 hunger[5] = 0
-information[5] = "§eDuration: 4m0s";
+information[5] = "Duration: 4m0s";
 
 addToCreative[6] = true;
 textureFile[6] = "elixir_pink";
@@ -81,7 +81,7 @@ potionAmplifier[6] = 0;
 potionProbability[6] = 1;
 hunger[6] = 0
 hasEffect[6] = true;
-information[6] = "§eDuration: 10m0s";
+information[6] = "Duration: 10m0s";
 
 addToCreative[7] = true;
 textureFile[7] = "elixir_magenta";
@@ -92,7 +92,7 @@ potionDuration[7] = 240;
 potionAmplifier[7] = 1;
 potionProbability[7] = 1;
 hunger[7] = 0
-information[7] = "§eDuration: 4m0s";
+information[7] = "Duration: 4m0s";
 
 addToCreative[8] = true;
 textureFile[8] = "elixir_magenta";
@@ -104,7 +104,7 @@ potionAmplifier[8] = 1;
 potionProbability[8] = 1;
 hunger[8] = 0
 hasEffect[8] = true;
-information[8] = "§eDuration: 10m0s";
+information[8] = "Duration: 10m0s";
 
 addToCreative[9] = true;
 textureFile[9] = "elixir_magenta";
@@ -116,7 +116,7 @@ potionAmplifier[9] = 2;
 potionProbability[9] = 1;
 hunger[9] = 0
 hasEffect[9] = true;
-information[9] = "§eDuration: 3m0s";
+information[9] = "Duration: 3m0s";
 
 addToCreative[10] = true;
 textureFile[10] = "elixir_yellow";
@@ -127,7 +127,7 @@ potionDuration[10] = 240;
 potionAmplifier[10] = 1;
 potionProbability[10] = 1;
 hunger[10] = 0
-information[10] = "§eDuration: 4m0s";
+information[10] = "Duration: 4m0s";
 
 addToCreative[11] = true;
 textureFile[11] = "elixir_yellow";
@@ -139,7 +139,7 @@ potionAmplifier[11] = 1;
 potionProbability[11] = 1;
 hunger[11] = 0
 hasEffect[11] = true;
-information[11] = "§eDuration: 10m0s";
+information[11] = "Duration: 10m0s";
 
 addToCreative[12] = true;
 textureFile[12] = "elixir_yellow";
@@ -151,7 +151,7 @@ potionAmplifier[12] = 2;
 potionProbability[12] = 1;
 hunger[12] = 0
 hasEffect[12] = true;
-information[12] = "§eDuration: 3m0s";
+information[12] = "Duration: 3m0s";
 
 addToCreative[13] = true;
 textureFile[13] = "elixir_white";
@@ -162,7 +162,7 @@ potionDuration[13] = 240;
 potionAmplifier[13] = 1;
 potionProbability[13] = 1;
 hunger[13] = 0
-information[13] = "§eDuration: 4m0s";
+information[13] = "Duration: 4m0s";
 
 addToCreative[14] = true;
 textureFile[14] = "elixir_white";
@@ -174,7 +174,7 @@ potionAmplifier[14] = 1;
 potionProbability[14] = 1;
 hunger[14] = 0
 hasEffect[14] = true;
-information[14] = "§eDuration: 10m0s";
+information[14] = "Duration: 10m0s";
 
 addToCreative[15] = true;
 textureFile[15] = "elixir_white";
@@ -186,7 +186,7 @@ potionAmplifier[15] = 2;
 potionProbability[15] = 1;
 hunger[15] = 0
 hasEffect[15] = true;
-information[15] = "§eDuration: 3m0s";
+information[15] = "Duration: 3m0s";
 
 addToCreative[16] = true;
 textureFile[16] = "elixir_ltblue";
@@ -197,7 +197,7 @@ potionDuration[16] = 240;
 potionAmplifier[16] = 1;
 potionProbability[16] = 1;
 hunger[16] = 0
-information[16] = "§eDuration: 4m0s";
+information[16] = "Duration: 4m0s";
 
 addToCreative[17] = true;
 textureFile[17] = "elixir_ltblue";
@@ -209,7 +209,7 @@ potionAmplifier[17] = 1;
 potionProbability[17] = 1;
 hunger[17] = 0
 hasEffect[17] = true;
-information[17] = "§eDuration: 10m0s";
+information[17] = "Duration: 10m0s";
 
 addToCreative[18] = true;
 textureFile[18] = "elixir_ltblue";
@@ -221,7 +221,7 @@ potionAmplifier[18] = 2;
 potionProbability[18] = 1;
 hunger[18] = 0
 hasEffect[18] = true;
-information[18] = "§eDuration: 3m0s";
+information[18] = "Duration: 3m0s";
 
 addToCreative[19] = true;
 textureFile[19] = "elixir_brown";
@@ -232,7 +232,7 @@ potionDuration[19] = 240;
 potionAmplifier[19] = 0;
 potionProbability[19] = 1;
 hunger[19] = 0
-information[19] = "§eDuration: 4m0s";
+information[19] = "Duration: 4m0s";
 
 addToCreative[20] = true;
 textureFile[20] = "elixir_brown";
@@ -244,7 +244,7 @@ potionAmplifier[20] = 0;
 potionProbability[20] = 1;
 hunger[20] = 0
 hasEffect[20] = true;
-information[20] = "§eDuration: 10m0s";
+information[20] = "Duration: 10m0s";
 
 addToCreative[21] = true;
 textureFile[21] = "elixir_ltgrey";
@@ -255,7 +255,7 @@ potionDuration[21] = 240;
 potionAmplifier[21] = 1;
 potionProbability[21] = 1;
 hunger[21] = 0
-information[21] = "§eDuration: 4m0s";
+information[21] = "Duration: 4m0s";
 
 addToCreative[22] = true;
 textureFile[22] = "elixir_ltgrey";
@@ -267,7 +267,7 @@ potionAmplifier[22] = 1;
 potionProbability[22] = 1;
 hunger[22] = 0
 hasEffect[22] = true;
-information[22] = "§eDuration: 10m0s";
+information[22] = "Duration: 10m0s";
 
 addToCreative[23] = true;
 textureFile[23] = "elixir_ltgrey";
@@ -279,7 +279,7 @@ potionAmplifier[23] = 2;
 potionProbability[23] = 1;
 hunger[23] = 0
 hasEffect[23] = true;
-information[23] = "§eDuration: 3m0s";
+information[23] = "Duration: 3m0s";
 
 addToCreative[24] = true;
 textureFile[24] = "elixir_blue";
@@ -290,7 +290,7 @@ potionDuration[24] = 240;
 potionAmplifier[24] = 0;
 potionProbability[24] = 1;
 hunger[24] = 0
-information[24] = "§eDuration: 4m0s";
+information[24] = "Duration: 4m0s";
 
 addToCreative[25] = true;
 textureFile[25] = "elixir_blue";
@@ -302,5 +302,5 @@ potionAmplifier[25] = 0;
 potionProbability[25] = 1;
 hunger[25] = 0
 hasEffect[25] = true;
-information[25] = "§eDuration: 10m0s";
+information[25] = "Duration: 10m0s";
 
