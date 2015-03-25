@@ -20,47 +20,47 @@ information[3] = "A pile of rich green goop.|This is the base of some|simple pot
 
 addToCreative[4] = true;
 textureFile[4] = "bowl_red";
-information[4] = "Your eyes are drawn to it.";
+information[4] = "A sticky substance.|Your eyes are drawn to it.";
 
 addToCreative[5] = true;
 textureFile[5] = "bowl_orange";
-information[5] = "It practically jumps out|at you.";
+information[5] = "A tingly substance.|It practically jumps out|at you.";
 
 addToCreative[6] = true;
 textureFile[6] = "bowl_pink";
-information[6] = "You have difficulty focusing|on it.";
+information[6] = "A numbing substance.|You have difficulty focusing|on it.";
 
 addToCreative[7] = true;
 textureFile[7] = "bowl_purple";
-information[7] = "It has a deep healthy look|to it.";
+information[7] = "A sticky substance.|It has a deep healthy look|to it.";
 
 addToCreative[8] = true;
 textureFile[8] = "bowl_magenta";
-information[8] = "It left a rash on your hand.";
+information[8] = "A tingly substance.|It left a rash on your hand.";
 
 addToCreative[9] = true;
 textureFile[9] = "bowl_yellow";
-information[9] = "It seems heavier than a|moment ago.";
+information[9] = "A numbing substance.|It seems heavier than a|moment ago.";
 
 addToCreative[10] = true;
 textureFile[10] = "bowl_white";
-information[10] = "Seems vicious.";
+information[10] = "A sticky substance.|Seems vicious.";
 
 addToCreative[11] = true;
 textureFile[11] = "bowl_ltblue";
-information[11] = "It seems to move about|excitedly.";
+information[11] = "A tingly substance.|It seems to move about|excitedly.";
 
 addToCreative[12] = true;
 textureFile[12] = "bowl_brown";
-information[12] = "It is comfortably warm|to the touch.";
+information[12] = "A numbing substance.|It is comfortably warm|to the touch.";
 
 addToCreative[13] = true;
 textureFile[13] = "bowl_ltgrey";
-information[13] = "It keeps springing back|against your touch.";
+information[13] = "A sticky substance.|It keeps springing back|against your touch.";
 
 addToCreative[14] = true;
 textureFile[14] = "bowl_blue";
-information[14] = "It is extremely watery.";
+information[14] = "A numbing substance.|It is extremely watery.";
 
 addToCreative[15] = true;
 textureFile[15] = "powder_watery";
