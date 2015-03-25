@@ -14,7 +14,7 @@ if (itemstack.getDamage() == 8) {
           player.sendMessage(interactPlayer.getUsername() + "'s wounds have been treated recently, wait a while.");          
         }
       } else {
-        player.sendMessage("You apply a poultice to " + interactPlayer.getUsername() + ".")
+        player.sendMessage("You apply a bandage to " + interactPlayer.getUsername() + ".")
         interactPlayer.sendMessage(player.getUsername() + " applies a bandage to your wounds.");
         itemstack.damageItem(1);
         interactPlayer.setHealth(Math.min(interactPlayer.getHealth() + config.getInt("bandageBagRecovery", "medicine"), interactPlayer.getMaxHealth()));

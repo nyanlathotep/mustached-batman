@@ -15,7 +15,7 @@ if (itemstack.getDamage() == 8) {
         }
       } else {
         player.sendMessage("You apply a poultice to " + interactPlayer.getUsername() + ".")
-        interactPlayer.sendMessage(player.getUsername() + " applies a bandage to your wounds.");
+        interactPlayer.sendMessage(player.getUsername() + " applies a poultice to your wounds.");
         itemstack.damageItem(1);
         interactPlayer.setHealth(Math.min(interactPlayer.getHealth() + config.getInt("poulticeBagRecovery", "medicine"), interactPlayer.getMaxHealth()));
         interactPlayer.getNbt().setInt("PlayerPersisted/AHMcooldown", curTime + config.getInt("poulticeBagCooldown", "medicine"));
