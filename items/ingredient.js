@@ -100,7 +100,7 @@ information[23] = "Should help you §oextend§r|some potions.";
 
 addToCreative[24] = true;
 textureFile[24] = "upg_tier";
-information[24] = "Should help you give your|potions §bquite§r §7the§r §6boost§r."
+information[24] = "Should help you give your|potions §bquite §7the §6boost§7.§r"
 
 addToCreative[25] = true;
 textureFile[25] = "meds_flint_blade";
