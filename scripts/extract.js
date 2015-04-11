@@ -17,6 +17,7 @@ mod.addToOreDictionary("AHMorangePlant", "ExtrabiomesXL:flower2:12");
 mod.addToOreDictionary("AHMorangePlant", "ExtrabiomesXL:flower2:13");
 mod.addToOreDictionary("AHMorangePlant", "ExtrabiomesXL:flower2:14");
 mod.addToOreDictionary("AHMorangePlant", "ExtrabiomesXL:flower2:15");
+mod.addToOreDictionary("AHMorangePlant", "ExtrabiomesXL:flower3:9");
 
 mod.addShapelessRecipe("addedhealthmechanics:ingredient:5", ":AHMorangePlant", ":AHMorangePlant", "harvestcraft:saucepanItem");
 
