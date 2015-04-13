@@ -109,3 +109,6 @@ information[25] = "An important piece of|basic first aid kits."
 addToCreative[26] = true;
 textureFile[26] = "meds_scalpel";
 information[26] = "An important piece of any|first aid kit."
+
+addToCreative[27] = true;
+textureFile[27] = "diamondNugget";
